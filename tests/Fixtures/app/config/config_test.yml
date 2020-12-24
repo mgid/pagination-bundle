@@ -1,0 +1,12 @@
+framework:
+    test: ~
+    secret: test
+
+services:
+    Mgid\PaginationBundle\Tests\Fixtures\Service\FirstService:
+        public: true
+        autowire: true
+
+    Mgid\PaginationBundle\Tests\Fixtures\Service\SecondService:
+        public: true
+        autowire: true
